@@ -5,13 +5,11 @@ player_input = 0
 game_counter = 0
 
 while player_input != "Q":
-
-    player_input = input("Give your choice: (Rock, Paper, Scissors): ").upper()
-    bot_list = ["ROCK", "SCISSORS", "PAPER"]
-    game_counter += 1
-    bot_input = random.choice(bot_list)
-
-    if player_input != "ROCK" or "SCISSORS" or "PAPER":
+    if player_input == "ROCK" or "SCISSORS" or "PAPER":
+        player_input = input("Give your choice: (Rock, Paper, Scissors): ").upper()
+        bot_list = ["ROCK", "SCISSORS", "PAPER"]
+        game_counter += 1
+        bot_input = random.choice(bot_list)
         if player_input == bot_input:
             print("Draw")
         if player_input == "ROCK":
