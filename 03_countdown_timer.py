@@ -4,14 +4,20 @@
 
 import time
 time_sec = 0
-while time_sec > 0:
+while True:
     try:
         time_sec = int(input("Input time in seconds: "))
         if time_sec < 0:
             print("The number cannot be negative")
-    except ValueError:     
+            continue
+        if time_sec == 0:
+            print("The number cannot be zero")
+            continue
+    except ValueError:
         print("Not an integer.")
+        continue
 
-for i in range(time_sec, 0 , -1):
-    print(f"⏳ {i} seconds left")
-    time.sleep(1)
+    for i in range(time_sec, 0 , -1):
+        print(f"⏳ {i} seconds left")
+        time.sleep(1)
+    break
