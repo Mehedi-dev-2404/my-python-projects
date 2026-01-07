@@ -18,6 +18,8 @@ while True:
         continue
 
     for i in range(time_sec, 0 , -1):
-        print(f"⏳ {i} seconds left")
-        time.sleep(1)
+            minutes = i // 60
+            seconds = i % 60
+            print(f"⏳ {minutes:02}:{seconds:02}")
+            time.sleep(1)
     break
