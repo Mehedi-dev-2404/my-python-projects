@@ -11,6 +11,9 @@ print("1. Addition")
 print("2. Subtraction")
 print("3. Division" )
 print("4. Multiplication")
+print("5. Power")
+print("6. Modulo")
+print("0. Exit Application")
 
 def add(num1, num2):
     result = num1 + num2
@@ -27,6 +30,12 @@ def divide(num1, num2):
 def multiply(num1, num2):
     result = num1 * num2
     return result
+def power(num1, num2):
+    result = num1 ** num2
+    return result
+def modulo(num1, num2):
+    result = num1 % num2
+    return result
 
 while True:
     try:
@@ -38,24 +47,30 @@ while True:
     if operation == 1:
         result = add(num1, num2)
         print(result)
-        break
     elif operation == 2:
         result = subtract(num1, num2)
         print(result)
-        break
     elif operation == 3:
         if num2 != 0:
             result = divide(num1, num2)
             print(result)
-            break
         else:
             print("Infinite")
-            break
-
     elif operation == 4:
         result = multiply(num1, num2)
         print(result)
-        break
+    elif operation == 5:
+        result = power(num1, num2)
+        print(result)
+    elif operation == 6:
+        result = modulo(num1, num2)
+        print(result)
     else: 
         print("Invalid operation")
         continue
+    selection = input("Do you want to continue (Y/N): ")
+    if selection == "Y":
+        continue
+    else:
+        print("Thank you for using the application")
+        break
