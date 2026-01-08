@@ -6,13 +6,17 @@ print("WELCOME TO YOUR CALCULATOR APP")
 num1 = float(input("Enter your number 1: "))
 num2 = float(input("Enter your number 2: "))
 
-print("Enter the number of the oparation you want:"
-"1. Addition" \
-"2. Subtraction" \
-"3. Division" \
-"4. Multiplication")
+print("Enter the number of the oparation you want:")
+print("1. Addition") 
+print("2. Subtraction")
+print("3. Division" )
+print("4. Multiplication")
 while True:
-    operation = int(input("Enter the number of the operation you want to perform: "))
+    try:
+        operation = int(input("Enter the number of the operation you want to perform: "))
+    except ValueError:
+        print("Input must be from 1-4 ")
+        continue
 
     if operation == 1:
         cal = num1 + num2
@@ -23,9 +27,13 @@ while True:
         print(cal)
         break
     elif operation == 3:
-        cal = num1 / num2
-        print(cal)
-        break
+        if num2 != 0:
+            cal = num1 / num2
+            print(cal)
+            break
+        else:
+            print("Infinite")
+            break
     elif operation == 4:
         cal = num1 * num2
         print(cal)
