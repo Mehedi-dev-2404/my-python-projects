@@ -11,6 +11,23 @@ print("1. Addition")
 print("2. Subtraction")
 print("3. Division" )
 print("4. Multiplication")
+
+def add(num1, num2):
+    result = num1 + num2
+    return result
+
+def subtract(num1, num2):
+    result = num1 - num2
+    return result
+
+def divide(num1, num2):
+    result = num1 / num2
+    return result
+
+def multiply(num1, num2):
+    result = num1 * num2
+    return result
+
 while True:
     try:
         operation = int(input("Enter the number of the operation you want to perform: "))
@@ -19,24 +36,25 @@ while True:
         continue
 
     if operation == 1:
-        cal = num1 + num2
-        print(cal)
+        result = add(num1, num2)
+        print(result)
         break
     elif operation == 2:
-        cal = num1 - num2
-        print(cal)
+        result = subtract(num1, num2)
+        print(result)
         break
     elif operation == 3:
         if num2 != 0:
-            cal = num1 / num2
-            print(cal)
+            result = divide(num1, num2)
+            print(result)
             break
         else:
             print("Infinite")
             break
+
     elif operation == 4:
-        cal = num1 * num2
-        print(cal)
+        result = multiply(num1, num2)
+        print(result)
         break
     else: 
         print("Invalid operation")
