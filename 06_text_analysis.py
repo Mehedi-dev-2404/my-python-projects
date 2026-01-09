@@ -14,10 +14,21 @@ try:
             num_of_char = len(data)
             total_words = len(words)
             total_lines = len(lines)
+            counts = {}
+
+            for word in words:
+                if word in counts:
+                    counts[word] += 1
+                else:
+                    counts[word] = 1
+            
+            most_common = max(counts, key= counts.get)
+            times_appeared = counts[most_common]
 
             print(f"The total number of characters is: {num_of_char}")
             print(f"Total words: {total_words}")
             print(f"Total lines: {total_lines}")
+            print(f"The most common word is '{most_common}' (appeared {times_appeared} times).")
 
 except FileNotFoundError:
     print(f"Error: The file {filename} was not found. Please check the spelling.")
