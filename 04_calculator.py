@@ -78,7 +78,7 @@ while True:
     else: 
         print("Invalid operation")
         continue
-    selection = input("Do you want to continue (Y/N): ")
+    selection = input("Do you want to continue (Y/N): ").upper
     if selection == "Y":
         continue
     else:
