@@ -1,0 +1,5 @@
+Learning to code is hard — but worth it.
+Hard problems make strong programmers.
+
+Code, test, fail, learn, repeat.
+This is the real process of becoming good at software development.
