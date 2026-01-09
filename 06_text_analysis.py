@@ -1,5 +1,6 @@
 import string
 filename = 'text.txt'
+
 try:
     with open(filename, 'r') as file:
         data = file.read().lower()
