@@ -2,8 +2,6 @@ import os
 
 folder_path = 'test_folder' 
 
-files = os.listdir(folder_path)
-data = {}
 file_type = {
     "images": [".jpg", ".png", ".jpeg", ".gif"],
     "videos": [".mp4", ".mkv"],
@@ -15,24 +13,27 @@ file_type = {
     "design": [".xd", ".psd"]
     }
 
-
-print(f"Files in '{folder_path}':")
+files = os.listdir(folder_path)
 
 for file in files:
     full_path = os.path.join(folder_path, file)
 
-    if os.path.isfile(full_path):
-        lower_file = file.lower()
-        data[file] = lower_file
+    if not os.path.isfile(full_path):
+        continue
 
-for original_file, lower_file in data.items():
-    extension = os.path.splitext(lower_file)
+    lower_file = file.lower()
+    _, extension = os.path.splitext(lower_file)
 
-    if extension in file_type:
-        category = file_type[extension]
-    else:
-        category = "Others"
+    category = "Others"
+    for folder, extensions in file_type.items():
+        if extension in extensions:
+            category = folder
+            break
+    
+    category_path = os.path.join(folder_path, category)
+    os.makedirs(category_path, exist_ok = True)
 
-    print(f"{original_file} → {category}")
-
-print(data)
+    new_path = os.path.join(category_path, file)
+    os.rename(full_path, new_path)
+    
+    print(f"Moved: {file} → {category}/")
