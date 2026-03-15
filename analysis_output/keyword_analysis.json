@@ -1,0 +1,742 @@
+{
+  "operationalKeywords": {
+    "cleaning": 347,
+    "before": 150,
+    "done": 146,
+    "guest": 117,
+    "guests": 61,
+    "drive": 61,
+    "after": 59,
+    "next": 54,
+    "hello": 53,
+    "lockbox": 53,
+    "upcoming": 49,
+    "new": 44,
+    "lavender": 41
+  },
+  "irrelevantKeywords": {
+    "yes": 227,
+    "send": 177,
+    "sure": 168,
+    "thanks": 166,
+    "just": 165,
+    "bro": 162,
+    "cleaner": 147,
+    "thank": 143,
+    "confirm": 141,
+    "someone": 114,
+    "ask": 73,
+    "what": 71,
+    "get": 70,
+    "her": 62,
+    "business": 55,
+    "ridowan": 46,
+    "rafin": 46,
+    "thats": 42,
+    "should": 41,
+    "where": 38,
+    "ill": 36
+  },
+  "allKeywords": [
+    {
+      "word": "the",
+      "count": 1138,
+      "operational": 590,
+      "irrelevant": 0,
+      "operationalRatio": "51.8"
+    },
+    {
+      "word": "you",
+      "count": 522,
+      "operational": 190,
+      "irrelevant": 25,
+      "operationalRatio": "36.4"
+    },
+    {
+      "word": "please",
+      "count": 380,
+      "operational": 166,
+      "irrelevant": 0,
+      "operationalRatio": "43.7"
+    },
+    {
+      "word": "mumen",
+      "count": 369,
+      "operational": 204,
+      "irrelevant": 0,
+      "operationalRatio": "55.3"
+    },
+    {
+      "word": "cleaning",
+      "count": 347,
+      "operational": 347,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "and",
+      "count": 338,
+      "operational": 200,
+      "irrelevant": 0,
+      "operationalRatio": "59.2"
+    },
+    {
+      "word": "can",
+      "count": 305,
+      "operational": 124,
+      "irrelevant": 1,
+      "operationalRatio": "40.7"
+    },
+    {
+      "word": "for",
+      "count": 304,
+      "operational": 175,
+      "irrelevant": 0,
+      "operationalRatio": "57.6"
+    },
+    {
+      "word": "this",
+      "count": 267,
+      "operational": 121,
+      "irrelevant": 0,
+      "operationalRatio": "45.3"
+    },
+    {
+      "word": "clayton",
+      "count": 248,
+      "operational": 154,
+      "irrelevant": 0,
+      "operationalRatio": "62.1"
+    },
+    {
+      "word": "yes",
+      "count": 227,
+      "operational": 43,
+      "irrelevant": 24,
+      "operationalRatio": "18.9"
+    },
+    {
+      "word": "will",
+      "count": 222,
+      "operational": 117,
+      "irrelevant": 0,
+      "operationalRatio": "52.7"
+    },
+    {
+      "word": "tomorrow",
+      "count": 216,
+      "operational": 87,
+      "irrelevant": 0,
+      "operationalRatio": "40.3"
+    },
+    {
+      "word": "there",
+      "count": 194,
+      "operational": 82,
+      "irrelevant": 0,
+      "operationalRatio": "42.3"
+    },
+    {
+      "word": "was",
+      "count": 185,
+      "operational": 100,
+      "irrelevant": 0,
+      "operationalRatio": "54.1"
+    },
+    {
+      "word": "send",
+      "count": 177,
+      "operational": 50,
+      "irrelevant": 0,
+      "operationalRatio": "28.2"
+    },
+    {
+      "word": "are",
+      "count": 171,
+      "operational": 86,
+      "irrelevant": 1,
+      "operationalRatio": "50.3"
+    },
+    {
+      "word": "sure",
+      "count": 168,
+      "operational": 38,
+      "irrelevant": 22,
+      "operationalRatio": "22.6"
+    },
+    {
+      "word": "thanks",
+      "count": 166,
+      "operational": 21,
+      "irrelevant": 15,
+      "operationalRatio": "12.7"
+    },
+    {
+      "word": "just",
+      "count": 165,
+      "operational": 44,
+      "irrelevant": 0,
+      "operationalRatio": "26.7"
+    },
+    {
+      "word": "bro",
+      "count": 162,
+      "operational": 28,
+      "irrelevant": 4,
+      "operationalRatio": "17.3"
+    },
+    {
+      "word": "she",
+      "count": 158,
+      "operational": 56,
+      "irrelevant": 0,
+      "operationalRatio": "35.4"
+    },
+    {
+      "word": "they",
+      "count": 152,
+      "operational": 74,
+      "irrelevant": 0,
+      "operationalRatio": "48.7"
+    },
+    {
+      "word": "have",
+      "count": 151,
+      "operational": 80,
+      "irrelevant": 0,
+      "operationalRatio": "53.0"
+    },
+    {
+      "word": "before",
+      "count": 150,
+      "operational": 150,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "cleaner",
+      "count": 147,
+      "operational": 43,
+      "irrelevant": 0,
+      "operationalRatio": "29.3"
+    },
+    {
+      "word": "done",
+      "count": 146,
+      "operational": 146,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "thank",
+      "count": 143,
+      "operational": 27,
+      "irrelevant": 25,
+      "operationalRatio": "18.9"
+    },
+    {
+      "word": "know",
+      "count": 141,
+      "operational": 61,
+      "irrelevant": 0,
+      "operationalRatio": "43.3"
+    },
+    {
+      "word": "confirm",
+      "count": 141,
+      "operational": 21,
+      "irrelevant": 0,
+      "operationalRatio": "14.9"
+    },
+    {
+      "word": "not",
+      "count": 140,
+      "operational": 65,
+      "irrelevant": 0,
+      "operationalRatio": "46.4"
+    },
+    {
+      "word": "let",
+      "count": 133,
+      "operational": 48,
+      "irrelevant": 0,
+      "operationalRatio": "36.1"
+    },
+    {
+      "word": "message",
+      "count": 122,
+      "operational": 64,
+      "irrelevant": 0,
+      "operationalRatio": "52.5"
+    },
+    {
+      "word": "its",
+      "count": 121,
+      "operational": 51,
+      "irrelevant": 0,
+      "operationalRatio": "42.1"
+    },
+    {
+      "word": "check",
+      "count": 118,
+      "operational": 71,
+      "irrelevant": 0,
+      "operationalRatio": "60.2"
+    },
+    {
+      "word": "guest",
+      "count": 117,
+      "operational": 117,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "someone",
+      "count": 114,
+      "operational": 20,
+      "irrelevant": 0,
+      "operationalRatio": "17.5"
+    },
+    {
+      "word": "that",
+      "count": 113,
+      "operational": 55,
+      "irrelevant": 0,
+      "operationalRatio": "48.7"
+    },
+    {
+      "word": "need",
+      "count": 108,
+      "operational": 62,
+      "irrelevant": 0,
+      "operationalRatio": "57.4"
+    },
+    {
+      "word": "edited",
+      "count": 107,
+      "operational": 55,
+      "irrelevant": 0,
+      "operationalRatio": "51.4"
+    },
+    {
+      "word": "lane",
+      "count": 106,
+      "operational": 61,
+      "irrelevant": 0,
+      "operationalRatio": "57.5"
+    },
+    {
+      "word": "all",
+      "count": 102,
+      "operational": 59,
+      "irrelevant": 0,
+      "operationalRatio": "57.8"
+    },
+    {
+      "word": "with",
+      "count": 100,
+      "operational": 55,
+      "irrelevant": 0,
+      "operationalRatio": "55.0"
+    },
+    {
+      "word": "centurion",
+      "count": 100,
+      "operational": 58,
+      "irrelevant": 0,
+      "operationalRatio": "58.0"
+    },
+    {
+      "word": "time",
+      "count": 94,
+      "operational": 43,
+      "irrelevant": 0,
+      "operationalRatio": "45.7"
+    },
+    {
+      "word": "linens",
+      "count": 91,
+      "operational": 31,
+      "irrelevant": 0,
+      "operationalRatio": "34.1"
+    },
+    {
+      "word": "any",
+      "count": 89,
+      "operational": 48,
+      "irrelevant": 0,
+      "operationalRatio": "53.9"
+    },
+    {
+      "word": "clean",
+      "count": 83,
+      "operational": 44,
+      "irrelevant": 0,
+      "operationalRatio": "53.0"
+    },
+    {
+      "word": "today",
+      "count": 81,
+      "operational": 42,
+      "irrelevant": 0,
+      "operationalRatio": "51.9"
+    },
+    {
+      "word": "them",
+      "count": 77,
+      "operational": 29,
+      "irrelevant": 0,
+      "operationalRatio": "37.7"
+    },
+    {
+      "word": "out",
+      "count": 76,
+      "operational": 40,
+      "irrelevant": 1,
+      "operationalRatio": "52.6"
+    },
+    {
+      "word": "one",
+      "count": 75,
+      "operational": 27,
+      "irrelevant": 0,
+      "operationalRatio": "36.0"
+    },
+    {
+      "word": "also",
+      "count": 73,
+      "operational": 34,
+      "irrelevant": 0,
+      "operationalRatio": "46.6"
+    },
+    {
+      "word": "ask",
+      "count": 73,
+      "operational": 21,
+      "irrelevant": 0,
+      "operationalRatio": "28.8"
+    },
+    {
+      "word": "from",
+      "count": 72,
+      "operational": 36,
+      "irrelevant": 0,
+      "operationalRatio": "50.0"
+    },
+    {
+      "word": "what",
+      "count": 71,
+      "operational": 19,
+      "irrelevant": 2,
+      "operationalRatio": "26.8"
+    },
+    {
+      "word": "get",
+      "count": 70,
+      "operational": 19,
+      "irrelevant": 0,
+      "operationalRatio": "27.1"
+    },
+    {
+      "word": "now",
+      "count": 68,
+      "operational": 23,
+      "irrelevant": 0,
+      "operationalRatio": "33.8"
+    },
+    {
+      "word": "property",
+      "count": 67,
+      "operational": 34,
+      "irrelevant": 0,
+      "operationalRatio": "50.7"
+    },
+    {
+      "word": "but",
+      "count": 66,
+      "operational": 29,
+      "irrelevant": 0,
+      "operationalRatio": "43.9"
+    },
+    {
+      "word": "keys",
+      "count": 66,
+      "operational": 43,
+      "irrelevant": 0,
+      "operationalRatio": "65.2"
+    },
+    {
+      "word": "when",
+      "count": 65,
+      "operational": 25,
+      "irrelevant": 0,
+      "operationalRatio": "38.5"
+    },
+    {
+      "word": "her",
+      "count": 62,
+      "operational": 16,
+      "irrelevant": 0,
+      "operationalRatio": "25.8"
+    },
+    {
+      "word": "guests",
+      "count": 61,
+      "operational": 61,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "drive",
+      "count": 61,
+      "operational": 53,
+      "irrelevant": 0,
+      "operationalRatio": "86.9"
+    },
+    {
+      "word": "after",
+      "count": 59,
+      "operational": 59,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "team",
+      "count": 57,
+      "operational": 39,
+      "irrelevant": 0,
+      "operationalRatio": "68.4"
+    },
+    {
+      "word": "put",
+      "count": 57,
+      "operational": 29,
+      "irrelevant": 0,
+      "operationalRatio": "50.9"
+    },
+    {
+      "word": "could",
+      "count": 56,
+      "operational": 23,
+      "irrelevant": 0,
+      "operationalRatio": "41.1"
+    },
+    {
+      "word": "business",
+      "count": 55,
+      "operational": 8,
+      "irrelevant": 0,
+      "operationalRatio": "14.5"
+    },
+    {
+      "word": "next",
+      "count": 54,
+      "operational": 40,
+      "irrelevant": 0,
+      "operationalRatio": "74.1"
+    },
+    {
+      "word": "well",
+      "count": 53,
+      "operational": 26,
+      "irrelevant": 0,
+      "operationalRatio": "49.1"
+    },
+    {
+      "word": "hello",
+      "count": 53,
+      "operational": 39,
+      "irrelevant": 0,
+      "operationalRatio": "73.6"
+    },
+    {
+      "word": "lockbox",
+      "count": 53,
+      "operational": 53,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "take",
+      "count": 53,
+      "operational": 28,
+      "irrelevant": 0,
+      "operationalRatio": "52.8"
+    },
+    {
+      "word": "cleaners",
+      "count": 52,
+      "operational": 25,
+      "irrelevant": 0,
+      "operationalRatio": "48.1"
+    },
+    {
+      "word": "did",
+      "count": 50,
+      "operational": 17,
+      "irrelevant": 0,
+      "operationalRatio": "34.0"
+    },
+    {
+      "word": "linen",
+      "count": 50,
+      "operational": 17,
+      "irrelevant": 0,
+      "operationalRatio": "34.0"
+    },
+    {
+      "word": "sorry",
+      "count": 49,
+      "operational": 15,
+      "irrelevant": 0,
+      "operationalRatio": "30.6"
+    },
+    {
+      "word": "upcoming",
+      "count": 49,
+      "operational": 49,
+      "irrelevant": 0,
+      "operationalRatio": "100.0"
+    },
+    {
+      "word": "back",
+      "count": 48,
+      "operational": 25,
+      "irrelevant": 0,
+      "operationalRatio": "52.1"
+    },
+    {
+      "word": "ridowan",
+      "count": 46,
+      "operational": 9,
+      "irrelevant": 0,
+      "operationalRatio": "19.6"
+    },
+    {
+      "word": "rafin",
+      "count": 46,
+      "operational": 8,
+      "irrelevant": 0,
+      "operationalRatio": "17.4"
+    },
+    {
+      "word": "single",
+      "count": 46,
+      "operational": 18,
+      "irrelevant": 0,
+      "operationalRatio": "39.1"
+    },
+    {
+      "word": "has",
+      "count": 45,
+      "operational": 26,
+      "irrelevant": 0,
+      "operationalRatio": "57.8"
+    },
+    {
+      "word": "bed",
+      "count": 44,
+      "operational": 17,
+      "irrelevant": 0,
+      "operationalRatio": "38.6"
+    },
+    {
+      "word": "new",
+      "count": 44,
+      "operational": 33,
+      "irrelevant": 0,
+      "operationalRatio": "75.0"
+    },
+    {
+      "word": "thats",
+      "count": 42,
+      "operational": 8,
+      "irrelevant": 0,
+      "operationalRatio": "19.0"
+    },
+    {
+      "word": "lavender",
+      "count": 41,
+      "operational": 33,
+      "irrelevant": 0,
+      "operationalRatio": "80.5"
+    },
+    {
+      "word": "should",
+      "count": 41,
+      "operational": 8,
+      "irrelevant": 0,
+      "operationalRatio": "19.5"
+    },
+    {
+      "word": "make",
+      "count": 38,
+      "operational": 24,
+      "irrelevant": 0,
+      "operationalRatio": "63.2"
+    },
+    {
+      "word": "door",
+      "count": 38,
+      "operational": 16,
+      "irrelevant": 0,
+      "operationalRatio": "42.1"
+    },
+    {
+      "word": "where",
+      "count": 38,
+      "operational": 11,
+      "irrelevant": 0,
+      "operationalRatio": "28.9"
+    },
+    {
+      "word": "these",
+      "count": 38,
+      "operational": 22,
+      "irrelevant": 0,
+      "operationalRatio": "57.9"
+    },
+    {
+      "word": "key",
+      "count": 38,
+      "operational": 26,
+      "irrelevant": 0,
+      "operationalRatio": "68.4"
+    },
+    {
+      "word": "may",
+      "count": 38,
+      "operational": 21,
+      "irrelevant": 0,
+      "operationalRatio": "55.3"
+    },
+    {
+      "word": "your",
+      "count": 37,
+      "operational": 21,
+      "irrelevant": 0,
+      "operationalRatio": "56.8"
+    },
+    {
+      "word": "inside",
+      "count": 37,
+      "operational": 20,
+      "irrelevant": 0,
+      "operationalRatio": "54.1"
+    },
+    {
+      "word": "about",
+      "count": 36,
+      "operational": 17,
+      "irrelevant": 0,
+      "operationalRatio": "47.2"
+    },
+    {
+      "word": "ill",
+      "count": 36,
+      "operational": 9,
+      "irrelevant": 0,
+      "operationalRatio": "25.0"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+ASSISTOSPHERE CHAT ANALYSIS SUMMARY
+Generated: 2026-03-15T19:32:57.759Z
+
+Operational Keywords Found: 13
+Irrelevant Keywords Found: 21
+
+Top Operational Keywords:
+  cleaning: 347
+  before: 150
+  done: 146
+  guest: 117
+  guests: 61
+  drive: 61
+  after: 59
+  next: 54
+  hello: 53
+  lockbox: 53
+  upcoming: 49
+  new: 44
+  lavender: 41
+
+Top Irrelevant Keywords:
+  yes: 227
+  send: 177
+  sure: 168
+  thanks: 166
+  just: 165
+  bro: 162
+  cleaner: 147
+  thank: 143
+  confirm: 141
+  someone: 114
+  ask: 73
+  what: 71
+  get: 70
+  her: 62
+  business: 55
+  ridowan: 46
+  rafin: 46
+  thats: 42
+  should: 41
+  where: 38
+
+FILES GENERATED:
+1. optimized_filter.js - Use this in n8n
+2. keyword_analysis.json - Full analysis data
+3. SUMMARY.txt - This file
