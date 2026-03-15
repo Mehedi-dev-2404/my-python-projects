@@ -1,0 +1,21 @@
+ASSISTOSPHERE CHAT ANALYSIS v2 SUMMARY
+Generated: 2026-03-15T19:35:18.920Z
+
+OPERATIONAL KEYWORDS (105):
+done, finished, complete, housekeeping, cleaning, before, after, broken, damage, damaged, stain, stains, blood, dirty, dust, bedbugs, bugs, issue, problem, urgent, asap, emergency, lockbox, code, key, unlock, access, arrive, arriving, on the way
+
+IRRELEVANT KEYWORDS (50):
+ok, okay, yes, no, sure, thanks, thank, hi, hello, hey, bye, see you, goodbye, great, good, perfect, awesome, noted, understood, got it, will do, no problem, how are you, hope you, keeping well, let me check, let me know, bro, shopping, receipt
+
+ESCALATION KEYWORDS:
+broken, bedbugs, blood, stain, damage, urgent, asap, emergency, not cleaned, missed
+
+FILES GENERATED:
+1. optimized_filter_v2.js - Use this in n8n
+2. detailed_analysis.json - Full keyword stats
+3. ANALYSIS_SUMMARY.txt - This file
+
+NEXT STEPS:
+1. Copy optimized_filter_v2.js into n8n Function node
+2. Test with real messages
+3. Adjust keyword lists if needed
