@@ -1,0 +1,11 @@
+user_id,event_timestamp,event_type,feature_name,session_id
+u_1001,2026-08-12T09:14:03,view,dashboard,s_88f2
+u_1001,2026-08-12T09:16:47,click,export_report,s_88f2
+u_1002,2026-08-12T10:02:11,view,dashboard,s_a1c9
+u_1003,2026-08-12T11:45:00,view,settings,s_44b7
+u_1001,2026-08-13T08:30:15,view,dashboard,s_9de3
+u_1002,2026-08-13T09:05:22,click,export_report,s_bb21
+u_1002,2026-08-13T09:07:59,click,export_report,s_bb21
+u_1004,2026-08-13T14:20:40,view,settings,s_cc10
+u_1003,2026-08-13T15:00:00,view,dashboard,s_dd55
+u_1005,2026-08-13T16:12:30,view,dashboard,s_ee01

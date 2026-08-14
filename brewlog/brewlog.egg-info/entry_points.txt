@@ -1,0 +1,3 @@
+[console_scripts]
+coffee-history = brewlog.cli:history_main
+log-coffee = brewlog.cli:log_main

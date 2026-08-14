@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brewlog"
+version = "0.1.0"
+description = "A tiny local CLI for logging coffee entries to a JSON file."
+requires-python = ">=3.8"
+
+[project.scripts]
+log-coffee = "brewlog.cli:log_main"
+coffee-history = "brewlog.cli:history_main"
+
+[tool.setuptools.packages.find]
+include = ["brewlog*"]

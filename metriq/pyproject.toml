@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metriq"
+version = "0.1.0"
+description = "Single-user, local CLI tool that computes engagement metrics from a CSV of raw daily events and writes a Markdown report."
+requires-python = ">=3.10"
+readme = "CLAUDE.md"
+dependencies = []
+
+[project.scripts]
+metriq = "metriq.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["metriq*"]
